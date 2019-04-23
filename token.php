@@ -2,7 +2,7 @@
 
 require 'app/start.php';
 
-$object = 'uploads/uploadme.txt';
+$object = 'trimmed.mp4';
 
 $url = $s3->getObjectUrl($config['s3']['bucket'], $object, '+10 seconds');
 
