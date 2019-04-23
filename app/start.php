@@ -1,9 +1,9 @@
 <?php
 
 use Aws\S3\S3Client;
-use Aws\CloudFront\CloudFrontClient
+use Aws\CloudFront\CloudFrontClient;
 
-require 'vendor/autoload.php'
+require 'vendor/autoload.php';
 
 $config = require('config.php');
 
@@ -15,6 +15,6 @@ $s3 = S3Client::factory([
 
 // Cloudfront
 $cloudfront = CloudFrontClient::factory([
-    'private_key' => '',    // path to private key
-    'key_pair_id' => ''     // from aws console
+    'private_key' => $config['cloudfront']['private_key'],
+    'key_pair_id' => $config['cloudfront']['key_pair_id']
 ]);

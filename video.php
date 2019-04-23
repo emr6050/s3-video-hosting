@@ -2,8 +2,8 @@
 
 require 'app/start.php';
 
-$object = '';
-$expiry = new DateTime('+10 minutes');
+$object = 'trimmed.mp4';
+$expiry = new DateTime('+10 seconds');
 
 // currently using signed URLs, need to work on signed cookies
 $url = $cloudfront->getSignedUrl([
