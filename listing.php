@@ -26,7 +26,7 @@ $objects = $s3->getIterator('ListObjects',[
                 <?php foreach($objects as $object): ?>
                 <tr>
                     <td><?php echo $object['Key']; ?></td>
-                    <td><a href="<?php echo $s3->getObjectUrl($config['s3']['bucket'], $object['Key']); ?>" download="<?php $object['Key']; ?>">Download</a></td>
+                    <td><a href="<?php echo $s3->getObjectUrl($config['s3']['bucket'], $object['Key'], "+10 seconds"); ?>">Download</a></td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>
