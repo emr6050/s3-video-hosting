@@ -29,7 +29,7 @@ if(isset($_FILES['file'])){
             'Bucket' => $config['s3']['bucket'],
             'Key' => "uploads/{$name}",
             'Body' => fopen($tmp_file_path, 'rb'),
-            'ACL' => 'public-read' // change this for making the files private
+            'ACL' => 'bucket-owner-full-control'
         ]);
 
         // remove the file
