@@ -9,7 +9,7 @@
 [newwinlogo]: http://i.stack.imgur.com/B8Zit.png
 * Open a command-line terminal
 ** <kbd>![Windows Key][newwinlogo]</kbd> + <kbd>R</kbd>
-** Type ```cmd``` and click ```Run```
+** Type ```cmd``` and click ```OK```
 * Navigate to the location of your code
 ** ```C:\xampp\htdocs\s3\```
 * Run ```composer install``` to configure the program with the [AWS SDK for PHP](https://github.com/aws/aws-sdk-php).
