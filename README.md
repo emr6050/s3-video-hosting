@@ -11,7 +11,7 @@
 ** <kbd>![Windows Key][newwinlogo]</kbd> + <kbd>R</kbd>
 ** Type ```cmd``` and click ```OK```
 * Navigate to the location of your code
-** ```C:\xampp\htdocs\s3\```
+** ```cd C:\xampp\htdocs\s3\```
 * Run ```composer install``` to configure the program with the [AWS SDK for PHP](https://github.com/aws/aws-sdk-php).
 ** The dependency is created by composer.json.
 
