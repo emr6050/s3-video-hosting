@@ -1,7 +1,5 @@
 # s3-video-hosting
 
-## setup
-
 ### Prerequisites
 * [xampp](https://www.apachefriends.org/index.html)
 * [composer](https://getcomposer.org/)
@@ -24,7 +22,5 @@
 ** or ```localhost:8080/s3/``` if you changed the config.
 * Try out any of the scrips you see! :)
 
-## reference
-
-[source](https://www.youtube.com/playlist?list=PLfdtiltiRHWE0uv1ZEL5d3Jt4i3qU-607)
+## [source](https://www.youtube.com/playlist?list=PLfdtiltiRHWE0uv1ZEL5d3Jt4i3qU-607)
 
