@@ -14,6 +14,9 @@
 * Run ```composer install``` to configure the program with the [AWS SDK for PHP](https://github.com/aws/aws-sdk-php).
 ** The dependency is created by composer.json.
 
+## Update config.php
+* Replace the fields in app/config.php with the correct information for your AWS instance
+
 ### Run the code
 * Open the XAMPP Control Panel (C:\xampp\control-panel.exe)
 * Start Apache
