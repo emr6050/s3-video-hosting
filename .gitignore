@@ -1,5 +1,5 @@
 
-.vscode/*
+app/config.php
 files/*
 vendor/*
 composer.lock
