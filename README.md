@@ -6,6 +6,7 @@
 * Clone the repo and move its contents into ```C:\xampp\htdocs\s3\```
 
 ### Add aws-sdk-php
+[newwinlogo]: http://i.stack.imgur.com/B8Zit.png
 * Open a command-line terminal
 ** <kbd>![Windows Key][newwinlogo]</kbd> + <kbd>R</kbd>
 ** Type ```cmd``` and click ```Run```
